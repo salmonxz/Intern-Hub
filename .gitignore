@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules/
+/.pnp
+.pnp.js
+
+# Production & Portable Build Outputs
+/dist/
+/dist-portable/
+*.zip
+
+# Windows Executables & Desktop Shortcuts (Generated via scripts)
+*.exe
+*.lnk
+
+# SQLite Databases & Local Test DBs (Personal internship logs and data)
+*.sqlite
+*.sqlite.backup
+*.db
+clean_laporan_bps.sqlite
+
+# User Uploaded Documents (Keep folder structure only)
+/uploads/*
+!/uploads/.gitkeep
+
+# Environment variables & local secrets
+.env
+.env.local
+*.env
+
+# Operating System & IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Antigravity / Agent Configurations
+.agents/
